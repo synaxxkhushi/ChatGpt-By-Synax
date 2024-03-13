@@ -22,7 +22,7 @@ async def start_message(c,m):
     await db.add_user(m.from_user.id, m.from_user.first_name)
     await c.send_message(LOG_CHANNEL, LOG_TEXT.format(m.from_user.id, m.from_user.mention))
     await m.reply_photo(f"https://graph.org/file/bed3114b73b2969f92018.jpg",
-        caption="**ʜɪ ɢᴜʏs 🇮🇳❤️** 👋\n\n**ɪ ᴀᴍ ᴀ ᴄʜᴀᴛɢᴘᴛ ʙᴏᴛ**\n\n⭕ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ :-** **[𝐒ᴀɴᴀᴛᴀɴɪ 𝐒ʏɴᴀx](https://t.me/coder_s4nax)**",
+        caption="**ʜɪ ɢᴜʏs 🇮🇳❤️** \n\n**ɪ ᴀᴍ ᴀ ᴄʜᴀᴛɢᴘᴛ ʙᴏᴛ ☢️**\n\n⭕ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ :-** **[𝐒ᴀɴᴀᴛᴀɴɪ 𝐒ʏɴᴀx](https://t.me/coder_s4nax)**",
         reply_markup=InlineKeyboardMarkup(
                 [
                     [
